@@ -1,0 +1,861 @@
+*{ box-sizing:border-box; 
+    margin: 0; 
+    padding: 0%;
+  }
+  body{
+    background-color: rgb(204, 204, 204);
+     height:1000px;
+    }
+  .header{
+    width: 100%;
+    height: 80px;
+    background-color: gray; 
+    top:fixed; 
+    z-index: 100;
+     position: fixed;
+      opacity: 0.8;
+    }
+  .img1{
+    height: 80px;
+    width: 80px;  
+    border-radius: 40px;
+     margin-left: 100px;
+    }
+  .list li a:hover{
+     color: black;
+    }
+  .list{float: right; 
+    margin-right: 50px;
+     margin-top:30px ;
+    }
+  .list li {
+    margin-left: 25px; 
+    display: inline-block;
+   }
+  .list li a{
+    font-size: 25px; 
+    color:white;
+    text-decoration:none; 
+  }
+  .home{
+    background-image: url(../image/409523506.jpg);height:100vh; 
+    position: relative; 
+   
+  }
+  .home-overlay{
+    position: absolute; 
+    height: 100%; 
+    width: 100%;
+    top: 0;
+    left: 0; 
+    background-color:rgba(0,0,0,0.8) ;
+    
+  }
+  
+  .btn-container{position: absolute;
+     float: left;
+     margin-top: 500px;
+     margin-left: 600px;
+   }
+  
+   
+  
+  .btn1{ width: 150px; height: 50px; background-color: #000; color: white; 
+       top: 50%; 
+       left: 50%;
+        transform:translate(-50%);
+      border-radius: 10px;
+    border: 0;}
+  .btn2{width: 150px;height: 50px; 
+    top: 50%; 
+       left: 50%;
+        transform:translate(-50%);
+        border-radius: 10px;
+        border: 0;
+     }
+  
+  
+    .title{text-align: center; 
+      color: white; 
+      position: absolute;
+       top: 50%; 
+       left: 50%;
+        transform:translate(-50%);
+        font-size: 40px;}
+  
+   
+  .homep{
+   
+  text-align: center; 
+  color: white; 
+  font-size: larger; 
+  position: absolute; 
+   top: 60%; 
+   left: 50%;
+    transform:translate(-50%); 
+    display:block; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,'Trebuchet MS', sans-serif;
+     text-transform: capitalize;
+    }
+  
+  .btn1:hover{
+     background-color:rgb(112, 106, 106) ;
+    }
+   
+  .btn2:hover{  
+    background-color:rgb(112, 106, 106) ;
+  }
+  
+  
+  .welcome{
+    height: 100vh; 
+    position: relative;
+  }
+  .welcometitle{
+    text-align: center; 
+    display: block; 
+    margin-top: 50px; 
+    text-decoration: underline;
+    }
+  .wl1{
+    background-color: gray;
+    height:300px; 
+    width: 300px;
+    float: left;
+    margin-left: 130px;
+    margin-top: 100px;
+    border-radius: 50px; 
+    position: relative;
+  }
+  .wl2{
+    background-color: gray;
+    height:300px; 
+    width: 300px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 50px;  
+    position: relative;
+  }
+  .wl3{
+    background-color: gray;
+    height:300px; 
+    width: 300px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 50px; 
+    position: relative;
+  }
+  .wlp{
+    text-align: center;
+     display: block; 
+     margin-top: 50px;
+     margin-bottom: 50px;
+      word-spacing: 5px; 
+      font-size:23px ;
+      color: white;
+    }
+  .iwl1{display: block;
+    margin: auto ; 
+    margin-left: 130px; 
+    margin-top: 30px; 
+  }
+  .wlp1{
+    text-align: center; 
+    display: block;
+     color: #000;
+    }
+  .wltdiv{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  .wl1:after{
+    position: absolute; 
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+    transition: 5s;
+    border-radius: 50px;
+  }
+  
+  .wl1:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    content: "";
+  }
+  .wl2:after{
+         position: absolute; 
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+    transition: 5s;
+    border-radius: 50px}
+        .wl2:hover::after{width: 100%;
+           height: 100%;
+           opacity: 0.5;}
+      
+           .wl3:after{
+             position: absolute; 
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+    transition: 5s;
+    border-radius: 50px}
+            .wl3:hover::after{width: 100%;
+               height: 100%;
+               opacity: 0.5;}
+          
+  
+  
+  .featured{ background-color: rgb(131, 130, 130); 
+    height: 110vh; 
+    position: relative;}
+  .ftitle{text-align: center;
+     display: block;
+      padding: 50px;  
+      text-decoration: underline;}
+  .fc{ height:300px;} 
+  .fdiv{ height: 200px;
+     width: 200px;
+      float: left; 
+      width: 30%; 
+      margin: auto;
+       margin-top: 30px; }
+  .fitem{height: 200px;
+     width: 200px ; 
+      margin-left:200px; 
+      margin-bottom: 30px;
+       position: relative;} 
+  .fitem1{height: 200px;
+     width: 200px ;
+       margin-left:180px; 
+         margin-bottom: 30px;
+          position: relative;
+        }  
+  .fitem2{height: 200px; 
+    width: 200px ;
+    margin-left:170px;  
+     margin-bottom: 30px;
+      position: relative;}
+  .fc1{ height: 400px;} 
+  .fitem3{height: 200px;
+     width: 200px ;
+      margin-left: 200px;  
+       margin-bottom: 30px; 
+       position: relative;} 
+  .fitem4{height: 200px; 
+    width: 200px ;
+     margin-left: 180px;   
+     margin-bottom: 30px; 
+     position: relative;} 
+  .fitem5{height: 200px;
+     width: 200px ; 
+     margin-left: 170px; 
+       margin-bottom: 30px; 
+       position: relative;} 
+  .fimg{border-radius: 10%;}
+  .overlay-f{height: 100%; 
+    width: 100%;
+    top: 0;
+    left: 0; 
+    background-color:rgba(0,0,0,0.7) ; 
+    visibility: hidden;
+    position: absolute;
+     border-radius: 10%;
+     opacity: 0; 
+   transition: 2s; }
+  .fdiv:hover .overlay-f{ visibility: visible;
+    opacity: 1; }
+  .pf{color: white; 
+     margin-left: 80px; }
+  .layer-f-title{color: white;   
+    text-align: center;}
+  .overlay-f a  i {  text-align: center; 
+     font-size: 30px;
+      margin-top: 30px; 
+      margin-left: 80px; 
+      color: white;}
+  .overlay-f .pf{display: block; 
+    margin-top: 20px;
+     font-size: 20px;}
+  
+  
+  .offer{background-color: rgb(12, 12, 12); 
+    height: 160vh;
+    padding-top: 5%}
+  .titleoffer{text-align: center; 
+    display: block; 
+    margin-top: 20px; 
+     text-decoration: underline;
+      color: white;}
+  .of1{height: 400px;
+    position: relative;}
+  .offerdiv1{background-color: gray;
+    height:300px; 
+    width: 300px;
+    float: left;
+    margin-left: 130px;
+    margin-top: 100px;
+    border-radius: 50px;
+    position: relative; }
+  .offerdiv2{background-color: gray;
+    height:300px;
+     width: 300px;
+     float: left;
+     margin-left: 100px;
+     margin-top: 100px;
+     border-radius: 50px;
+     position: relative; }
+  .offerdiv3{background-color: gray;
+    height:300px; 
+    width: 300px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 50px;
+    position: relative;}
+  .of2{height: 400px;}
+  .offerdiv4{background-color: gray;
+    height:300px; 
+    width: 300px;
+    float: left;
+    margin-left: 130px;
+    margin-top: 100px;
+    border-radius: 50px; 
+    position: relative;}
+  .offerdiv5{background-color: gray;
+    height:300px; 
+    width: 300px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 50px;
+     position: relative;}
+  .offerdiv6{background-color: gray;
+    height:300px; 
+    width: 300px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 50px; 
+    position: relative;}
+  .offertitle{text-align: center;
+    margin-top: 30px;
+    font-size: 30px;}
+  .iof{margin-left: 120px; 
+    margin-top: 30px;}
+  .offerp{text-align: center; 
+    display: block; 
+    margin-top: 50px;
+    margin-bottom: 100px;
+     word-spacing: 5px;
+      font-size:23px ;
+      color: white;}
+  .offerdiv1:after{
+    position: absolute; 
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+    transition: 5s;
+     border-radius: 50px
+   }
+     .offerdiv1:hover::after{width: 100%; 
+          height: 100%;
+          opacity: 0.5;}
+  
+      .offerdiv2:after{
+        position: absolute; 
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+    transition: 5s;
+     border-radius: 50px}
+        .offerdiv2:hover::after{width: 100%; 
+          height: 100%;
+          opacity: 0.5;}
+  
+          .offerdiv3:after{
+             position: absolute; 
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+    transition: 5s;
+     border-radius: 50px}
+    .offerdiv3:hover::after{width: 100%; 
+      height: 100%;
+      opacity: 0.5;}
+     .offerdiv4::after{
+     position: absolute; 
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+    transition: 5s;
+     border-radius: 50px}
+       .offerdiv4:hover::after{
+       width: 100%; 
+     height: 100%;
+      opacity: 0.5;}
+    .offerdiv5:after{
+     position: absolute; 
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+    transition: 5s;
+     border-radius: 50px}
+    .offerdiv5:hover::after{ 
+      width: 100%; 
+                          
+    height: 100%;
+      opacity: 0.5;
+     }
+    .offerdiv6:hover::after{
+      width: 100%; 
+    height: 100%;
+     opacity: 0.5;}
+  
+  .choose{ height: 100vh; 
+    background-color: rgb(151, 151, 151);}
+  .choosetitle{text-align: center; 
+    display: block;
+     padding: 30px; 
+      text-decoration: underline;}
+  .imgchoose{ background-image: url(../image/deer-geometry-wireframe-artwork-wallpaper-preview.jpg);
+    float: left;
+    position: relative;
+     border-radius: 100px; 
+     height: 400px;
+      width: 400px;
+      background-position: center;
+      margin-left: 50px;
+      margin-right: 150px; }
+  .choose-points{margin-top: 400px;
+     margin-left: 200px;}
+  .active1{float: left;color: white;
+    font-size: 30px; }
+  .active2{float: left;
+    margin-left: 10px;
+    font-size: 30px;}
+  .active3{float: left;
+    margin-left: 10px;
+    font-size: 30px;}
+  .choose-points li:hover{ color: white;}
+  .pchoose{font-size: 30px;
+     text-transform: capitalize;
+      margin-right: 70px; }
+  .p1choose{ margin-top: 30px; 
+    margin-left: 30px;}
+  .p1choose { margin-top: 30px;
+     margin-left: 40px;
+     margin-right: 50px; }
+  
+  
+  
+  .s6{background-image: url(../image/abstract-deer-animals-digital-art-wallpapers-hd-desktop-and-mobile-backgrounds.png);
+    height: 400px; 
+    background-attachment: fixed;
+     position: relative;}
+  .container{width: 90%;
+     margin: auto;}
+  .numbers-items{text-align: center;}
+  .s6i{ float: left;
+     margin-left: 140px;
+      margin-top: 150px;
+       color: white; }                                                                                                                                                                                                                                                                                                           
+  .overlay-number{height: 100%;
+     width: 100%;
+     top: 0;
+     left: 0; 
+     background-color:rgba(0,0,0,0.7) ; }
+  .s6-span{text-transform: capitalize;
+      margin-right: 10px;
+       display: block; 
+       text-align: center; 
+       line-height: 40px; }
+  .s6-title{margin-top: 20px; }
+                                                                                                                                                                                                                                                                                                      
+  
+  .Pricing{ height: 100vh;
+    position: relative;}
+  .Pricingtitle{text-align: center; 
+    display: block; 
+    margin-top: 30px;  
+    text-decoration: underline;}
+  .div1{background-color: gray;
+    height:300px;
+     width: 300px;
+     float: left;
+     margin-left: 130px;
+     margin-top: 100px;
+     border-radius: 50px;
+     position: relative}
+  .div2{background-color: gray;
+    height:300px;
+    width: 300px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px; 
+    border-radius: 50px;
+    position: relative;}
+  .div3{background-color: gray;
+    height: 300px;
+    width: 300px; 
+    float: left;
+    margin-left: 100px;
+    margin-top:100px; 
+    border-radius: 50px;
+    position: relative;}
+  .Pricing h2{ text-align: center;}
+  .Pricing p{ text-align: center;
+    font-size: large;
+     color: white;}
+  .div11{height: 70px;
+    width: 70px;
+    border-radius:35px;
+    background-color: white;  
+    margin: auto;
+     margin-top: 20px;
+   border: 20px;
+    border-color: black;
+    border: solid;}
+  .div22{height: 70px;
+    width: 70px;
+    border-radius: 35px; 
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    border-color: black;
+   border: solid; }
+  .div33{height: 70px;
+    width: 70px;
+    border-radius: 35px; 
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    border-color: black;
+   border: solid; }
+  .btn3{border-radius: 5px; 
+    margin-left: 80px; 
+    margin-top: 50px;
+     border: none;
+     height: 20px;
+     width: 150px;}
+  .btn4{border-radius: 5px; 
+    margin-left: 80px;
+    margin-top:50px;
+    border: none;
+    height: 20px;
+    width: 150px;}
+  .btn5{border-radius: 5px;
+     margin-left: 80px;
+     margin-top: 50px;
+      border: none;
+      height: 20px;
+      width: 150px;}
+  .h11{text-align: center;}
+  .h4{text-align: center;}
+  .Pricing h4{margin: auto;
+    padding-top: 5px;}
+  .div1:hover h2
+  { color:white}
+  .div2:hover h2
+  { color:white}
+  .div3:hover h2
+   { color:white}
+   
+  .div1::after{
+    position: absolute; 
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;
+    transition: 5s;
+    border-radius: 50px;
+  }
+   .div1:hover::after{width: 100%; height: 100%;opacity: 0.5;}
+    .div2:after{
+      position: absolute; 
+      content: "";
+      width: 100%;
+      height: 0;
+      top: 0;
+      left: 0;
+      background-color:black;
+      opacity: 0;
+      transition: 5s;
+      border-radius: 50px;}
+      .div2:hover::after{width: 100%; height: 100%;opacity: 0.5;}
+      .div3:after{
+        position: absolute; 
+        content: "";
+        width: 100%;
+        height: 0;
+        top: 0;
+        left: 0;
+        background-color:black;
+        opacity: 0;
+        transition: 5s;
+        border-radius: 50px;}
+        .div3:hover::after{width: 100%; height: 100%;opacity: 0.5;}
+  
+  .s8{height: 300px; 
+    background-image: url(../image/1309915.jpg); 
+  border-radius: 50px;
+   background-attachment: fixed;
+   position: relative; }
+  .overlay-s8{height: 100%;
+     width: 100%;
+     top: 0;
+     left: 0;
+      background-color:rgba(0,0,0,0.5) ;}
+  .divs81{ position: relative;}
+  .divs82{ position: relative;}
+  .s81{border-radius: 50%;}
+  .divs81 { margin-left: 200px; 
+     margin-right: 30px; 
+     float: left; 
+     color: white;
+      margin-top: 20px;
+       text-transform: capitalize;
+       position: relative;}
+  .divs82{ margin-left: 150px; 
+    background-position: center; 
+    float: left; color: white; 
+    margin-top: 20px; 
+    text-transform: capitalize;
+     position: relative; }
+  .h2s8{margin-top: 30px;}
+  
+  .team{height: 80vh;}
+  .teamtitle{text-align: center; 
+    display: block; 
+    margin-top: 30px;
+     margin-bottom: 30px; 
+     text-decoration: underline;}
+  .container{width: 80%; 
+    margin: auto;}
+  .team-iteam{
+    float: left; 
+    background-color: gray; 
+    width: 30%; 
+    padding: 14px  18px; 
+    text-align: center;
+    position: relative; 
+    transition: 2s; 
+    border-radius: 50px;
+    margin-top: 10px;
+  }
+  .ww{
+    margin: 0px 5%;
+  }
+  .team-img{
+     position: relative;
+      width: 90%; 
+      margin: auto;
+    
+  
+    }
+  .team-img img{
+    width: 100%; border-radius: 30px;
+   
+  }
+  .team-overlay{ 
+    top: 0; 
+      width: 100%;
+      height: 100%; 
+      background-color: rgba(0,0,0,0.5); 
+      visibility: hidden;
+      opacity: 0; 
+      position: absolute;
+      border-radius: 30px;
+      
+    
+    }
+  .team-overlay a {
+    display:block; 
+    width: 40px; 
+    height: 40px; 
+    background-color: gray; 
+    color: black; 
+    font-size: 30px; 
+    margin-left: auto;
+    
+  }
+  .team-overlay a i {
+    line-height: 40px;
+  }
+  .team-iteam:hover .team-overlay{ 
+    visibility: visible; 
+    opacity: 1;
+  
+  }
+  .team-iteam:hover .team-info-title{
+    color: white;
+  }
+  .team-iteam:after{
+     position: absolute; 
+     content: "";
+     width: 0;
+     height:0;
+     top: 0;
+     right: 0;
+     background-color:black;
+    opacity: 0;
+     transition: 5s;
+     border-radius: 50px;}
+  .team-iteam:hover::after{
+    width: 100%;
+     height: 100%;
+     opacity: 0.5;
+    }
+  
+  
+  
+  .recent{
+    height: 800px; 
+    background-color: black;
+  } 
+  .recent-main{
+    width: 80%; 
+    margin: auto;
+  }
+  .recent-title{
+    color: white; 
+    text-align: center; 
+    display: block; margin-top: 30px; 
+    padding: 30px;
+     text-decoration: underline;
+    }
+  .overlay-recent{
+    float: left; 
+    background-color: gray; 
+    width: 30%; height: 80%; 
+    padding: 14px  18px; 
+    text-align: center;
+     position: relative;
+     border-radius: 50px;
+    }
+  .ee{
+    margin: 0px 5%;
+  }
+  .rimgae{
+    margin-bottom: 40px;
+    margin-top: 30px; 
+    border-radius: 50%;
+  }
+  .recent-iteam{ 
+    margin-top: 40px;
+     position: relative;
+    }
+  .recent-content{
+     width: 90%; 
+     margin: auto;
+     float: left;  
+     margin-top: 40px;
+   
+    }
+  .recent-list{
+    margin-top: 50px; 
+    margin-left: 20px; 
+    margin-bottom: 30px;
+  }
+  .recent-title1{
+    margin-left: 20px;
+     margin-top: 20px;
+    }
+  .recent-p{
+    margin-left: 20px;
+     margin-top: 10px; 
+     margin-bottom: 10px;
+    }
+  .recent-link{ 
+    margin-left: 20px;
+     margin-bottom: 20px; 
+     color: black;
+    }
+  .overlay-recent::after{
+      position: absolute; content: ""; 
+      width: 100%;
+      height: 0;
+      top: 0;
+      left: 0;
+      background-color: black;
+      opacity: 0;
+      transition: 3s;
+      border-radius: 50px;}
+   .overlay-recent:hover:after{
+    width: 100%;
+     height: 100%;
+     opacity: 
+     0.7;
+    }
+  
+  
+  .ending{
+     height: 300px;
+     width: 100%; 
+     background-color: gray;
+    }
+  .imgending{ 
+      margin: auto;
+      margin-left: 45%;
+      border-radius: 
+      50%;margin-top: 30px; 
+    } 
+  .store-links  li a i  {
+    color: black;
+     font-size: 30px;   
+     }
+  .store-links li {
+    display: inline; 
+  }
+  .store-links i { 
+    text-align: center;  
+    margin-top: 30px; 
+    margin-bottom: 30px;
+  }
+  .f{
+    margin-left: 43%;
+  }
+  .copyright{
+    color:black;
+    text-align: center; 
+    text-transform: capitalize;
+  }
